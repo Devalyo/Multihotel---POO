@@ -2,7 +2,7 @@ public class Quarto {
     private int numero;
     private float preco;
     private String tipo;
-    public boolean isLivre;
+    private boolean isLivre;
 
     // Classe reponsável por seus atributos e gerenciar a sua condição de reserva
 
@@ -33,6 +33,10 @@ public class Quarto {
     }
     public String getTipo() {
         return tipo;
+    }
+    public boolean getIsLivre()
+    {
+        return isLivre;
     }
 
     
