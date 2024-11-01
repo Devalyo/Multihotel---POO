@@ -19,7 +19,7 @@ public class Reserva {
 
     public boolean confirmarReserva()
     {
-        if(this.quarto.isLivre)
+        if(this.quarto.getisLivre())
         {
             quarto.reservar();
             return true;
