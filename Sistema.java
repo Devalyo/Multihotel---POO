@@ -103,7 +103,7 @@ public class Sistema {
 
         for(Quarto quarto : quartos)
         {
-            if(quarto.isLivre) 
+            if(quarto.getisLivre()) 
             {
                 System.out.println("----------------");
                 System.out.println("Numero: " + quarto.getNumero());
@@ -270,7 +270,7 @@ public class Sistema {
             {
                 System.out.printf("\n------------------\n");
                 System.out.printf("\n Quarto %d",  quarto.getNumero());
-                if(!quarto.isLivre)
+                if(!quarto.getisLivre())
                 {
                     System.out.printf(" !INDISPONÍVEL!");
                 }
